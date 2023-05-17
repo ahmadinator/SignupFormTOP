@@ -9,8 +9,6 @@
 </head>
 
 <body>
-  <script src="script.js"></script>
-
   <div id='main'>
     <div id='leftbg'>
         <div id='odinlogodiv'>
@@ -38,7 +36,8 @@
             </div>
             <div class='forminput'>
               <label for='password'>Password</label>
-              <input type='text' id='password' name='password'>
+              <input type='password' id='password' name='password'>
+              <label id="passwordsdontmatch" for='password' style="color: rgb(202, 84, 84); text-transform: none; display: none">* Passwords do not match</label>
             </div>
           </div>
           <div id='formright'>
@@ -52,16 +51,17 @@
             </div>
             <div class='forminput'>
               <label for='confirmpassword'>Confirm Password</label>
-              <input type='text' id='confirmpassword' name='confirmpassword'>
+              <input type='password' id='confirmpassword' name='confirmpassword'>
             </div>
           </div>
         </form>
       </div>
       <div id='bottomtext'>
         <button id='submitbtn' type="submit">Create Account</button>
+        <h3 id='logintext'>Already have an account? <a>Log in</a></h3>
       </div>
     </div>
   </div>
+  <script src="script.js"></script>
 </body>
-
 </html>
