@@ -2,3 +2,41 @@ html {
   height: 100%;
   width: 100%;
 }
+
+#main {
+  display: flex;
+  min-height: 100vh;
+}
+
+#leftbg {
+  padding-top: 10%;
+  width: 50%;
+  background-image: url('./halie-west-25xggax4bSA-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#odinlogodiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+  padding: 0px;
+}
+
+#odinlogo {
+  width: 70px;
+}
+
+@font-face {
+  font-family: 'Norse-Bold';
+  src: url('./Norse-Bold.otf') format('opentype');
+}
+
+#odinlogoheader {
+  color: white;
+  font-size: 70px;
+  font-family: 'Norse-Bold', 'Arial Narrow', Arial, sans-serif
+}
